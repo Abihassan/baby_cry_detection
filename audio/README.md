@@ -1,4 +1,4 @@
-##Here is how this works:
+# Here is how this works:
 
 ### 1. The Concept: "Audio Chunking"
 
