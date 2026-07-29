@@ -1,10 +1,4 @@
-okay i have one doubt as of know we are giving the input audio files instead of that is it possible to give input as live audio data and in that time well it do the same thing detection and alert them in the live because i want that in the future!
-
-Yes, it is absolutely possible. In fact, transitioning to live audio is the exact right step to take this from a proof-of-concept to a real-world, production-ready Smart Baby Monitor.
-
-Right now, your FastAPI server uses HTTP POST requests, which are designed for uploading complete, finished files. To process live audio in real-time, the architecture needs a slight upgrade, but the core AI models we just built will stay exactly the same.
-
-Here is how you will accomplish this in the future:
+#Here is how this works:
 
 ### 1. The Concept: "Audio Chunking"
 
